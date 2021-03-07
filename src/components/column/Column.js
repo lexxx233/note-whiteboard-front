@@ -8,8 +8,6 @@ const Column = (props) => {
     const {column, tasks, index} = props
 
     return (
-        <div>
-
         <Draggable
             isDragDisabled={true}
             draggableId={column.id} 
@@ -58,7 +56,6 @@ const Column = (props) => {
         }
        
         </Draggable>
-        </div>
     )
 }
 

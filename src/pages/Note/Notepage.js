@@ -24,7 +24,6 @@ const NotePage = () => {
         }
     },[])
 
-
     const onDragEnd = (result)=>{
         const {destination, source, draggableId, type} = result
         if(!destination){
@@ -81,7 +80,7 @@ const NotePage = () => {
                 ...start,
                 taskIds: startTaskIds
             }
-            const finishTaskIds = Array.from(finish);
+            const finishTaskIds = Array.from(finish.taskIds);
             finishTaskIds.splice(destination.index, 0, draggableId);
             const newFinish = {
                 ...finish,
