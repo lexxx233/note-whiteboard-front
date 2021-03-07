@@ -1,0 +1,44 @@
+@import '../../assets/scss/_variables';
+
+.item {
+    width: 96%;
+    border: 1px solid lightgray;
+    box-shadow: 0 1px 0 rgb(9, 30, 66 / 25%);
+    padding: 10px;
+    border-radius: 3px;
+    margin: 5px 0;
+    cursor: pointer;
+    margin-left: 6px;
+    background-color: white;
+
+}
+
+// .item {
+//     background-color: #fff;
+//     border-radius: 3px;
+//     box-shadow: 0 1px 0 rgb(9, 30, 66 / 25%);
+//     cursor: pointer;
+//     display: block;
+//     margin-bottom: 8px;
+//     max-width: 300px;
+//     min-height: 20px;
+//     position: relative;
+//     text-decoration: none;
+//     z-index: 0;
+// }
+
+.testDrag {
+    width: 100%;
+    border: 2px solid lightpink;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 5px 0;
+    cursor: pointer;
+    background-color: lightsteelblue;
+}
+
+.dragHeader {
+    background-color: $bg-light;
+    min-height: 20px;
+    cursor: grab;
+}

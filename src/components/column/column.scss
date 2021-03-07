@@ -1,0 +1,79 @@
+.test {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    // border-radius: 12px;
+    // border: 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    cursor: grab;
+}
+
+.board {
+
+    margin: 8px;
+    background-color: #ebecf0;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    white-space: normal;
+
+}
+
+// background-color: #ebecf0;
+// border-radius: 3px;
+// box-sizing: border-box;
+// display: flex;
+// flex-direction: column;
+// max-height: 100%;
+// position: relative;
+// white-space: normal;
+
+.board__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.taskList {
+    background-color: white;
+}
+
+.taskListDragging {
+    background-color: red;
+}
+
+.long-text {
+    hyphens: auto;
+    white-space: pre;
+    /* CSS 2.0 */
+    white-space: pre-wrap;
+    /* CSS 2.1 */
+    white-space: pre-line;
+    /* CSS 3.0 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    white-space: -moz-pre-wrap;
+    /* Mozilla */
+    white-space: -hp-pre-wrap;
+    /* HP Printers */
+    word-wrap: break-word;
+    /* IE 5+ */
+}

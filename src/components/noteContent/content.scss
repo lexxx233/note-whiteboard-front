@@ -1,0 +1,14 @@
+.button-list {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+
+    li {
+        padding-right: 5px;
+    }
+
+    button {
+        margin: 0;
+        height: 2.7em;
+    }
+}

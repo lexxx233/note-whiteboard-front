@@ -1,0 +1,121 @@
+@import '../../assets/scss/_variables';
+
+.test {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    // border-radius: 12px;
+    // border: 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.app {
+    background-color: #0079bf;
+    min-height: 900px;
+}
+
+.scroll {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+
+.board__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #EBECF0;
+}
+
+.item {
+    width: 96%;
+    border: 1px solid black;
+    box-shadow: 0 1px 0 rgb(9, 30, 66 / 25%);
+    padding: 10px;
+    border-radius: 3px;
+    margin: 10px 0;
+    cursor: pointer;
+    margin-left: 6px;
+    background-color: #fff;
+}
+
+.container {
+    // button {
+    //     margin: 2.5em 0;
+    //     height: 30px;
+    //     background-color: $bg-main;
+    //     border: none;
+    //     color: white;
+    //     cursor: pointer;
+    //     font-weight: 600;
+    // }
+
+    .app-button {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+    }
+}
+
+.submit.btn {
+    margin: 1em 0;
+}
+
+.submit.btn:hover {
+    background-color: red;
+    /* Green */
+    margin: 0.5em 0;
+}
+
+
+
+#scroll-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#scroll-1::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+#scroll-1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
+
+#scroll-2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #0079bf;
+}
+
+#scroll-2::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    background-color: #0079bf;
+}
+
+#scroll-2::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
+
+.line {
+    margin: 1.5em 0 0 0;
+    border-bottom: 1px solid lightgray;
+}

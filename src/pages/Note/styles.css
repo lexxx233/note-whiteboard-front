@@ -1,0 +1,49 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    width: inherit;
+  }
+  
+  .container h2 {
+    margin: 100px 0 50px;
+  }
+  
+  .container > * {
+    width: 100%;
+    margin-left: 0.3em;
+  }
+  
+  .container > *:first-child() {
+    margin-left: 0;
+  }
+  
+  .container > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 22%);
+    justify-content: space-between;
+    grid-gap: 30px;
+    width: 800px;
+    min-height: 220px;
+    margin: auto;
+    min-height: 220px;
+    outline: 2px dashed lightblue;
+  }
+  
+  .card-file {
+    padding: 1rem;
+    border-radius: 8px;
+    height: 180px;
+    background: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .card-file h4 {
+    margin-top: 0;
+  }
+  
